@@ -54,7 +54,7 @@ section#login div#imagem {
     background: url(../imagens/fundo-tela.login.png) no-repeat;
     background-size: cover;
     background-position: left bottom;
-    height: 200px;
+    height: 178px;
 
 }
 section#login div#formulario {
@@ -68,3 +68,82 @@ div#formulario h1 {
 div#formulario p{
     font-size: 0.8em;
 }
+form div .campo{
+    margin-bottom: 15px;
+    background-color: #0284c7;
+}
+input[type="submit"] {
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   height: 40px;
+   background-color: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.454);
+}
+ input[type="submit"]:hover {
+    background-color: #6ea8c7;
+        transform: scale(1.05);
+
+}
+a.botao {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    
+    /* Mude para 'white' ou 'transparent' para tirar o cinza */
+    background-color: white; 
+    
+    /* Cor do texto e da borda usando o azul do seu tema */
+    color: #0284c7;
+    border: 1px solid #0284c7; 
+    
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    
+    /* Importante: line-height deve ser igual à height para centralizar */
+    line-height: 40px; 
+    text-decoration: none;
+}
+a.botao:hover {
+    background-color: #f0f9ff; /* Um azul bem clarinho ao passar o mouse */
+    transform: scale(1.05);
+}
+i.fas {
+    margin-right: 7px; /* Espaço entre o ícone e o texto */
+    color: #0284c7; /* Cor dos ícones */
+    
+}
+.campo {
+    display: flex;
+    align-items: center;
+    background-color: #0284c7; /* A cor azul da tua barra */
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: 100%; /* Garante que a barra use a largura total do formulário */
+    box-sizing: border-box; /* Evita que o padding aumente o tamanho da barra */
+}
+
+.campo i {
+    color: white;
+    margin-right: 10px;
+    min-width: 20px; /* Mantém o ícone estável */
+    text-align: center;
+}
+
+.campo input {
+    flex: 1; /* O input agora estica até ao fim da barra azul */
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    outline: none;
+}
+
