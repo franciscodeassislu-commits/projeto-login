@@ -15,6 +15,7 @@
 
 }
 
+
 body,
 html {
 
@@ -51,7 +52,7 @@ section#login {
 
 section#login div#imagem {
     display: block;
-    background: url(../imagens/fundo-tela.login.png) no-repeat;
+    background: url(../imagens/1.png) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 178px;
@@ -86,7 +87,7 @@ input[type="submit"] {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.454);
 }
  input[type="submit"]:hover {
-    background-color: #6ea8c7;
+    background-color: #3eaee1;
         transform: scale(1.05);
 
 }
